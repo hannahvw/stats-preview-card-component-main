@@ -95,7 +95,7 @@ p {
 .container__stats p:last-of-type {
   text-transform: uppercase;
   color: var(--neutral-color-subtext);
-  font-size: 0.937rem;
+  font-size: 0.75rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   letter-spacing: 0.1rem;
@@ -139,6 +139,7 @@ picture::before {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-right: 2rem;
   }
 
   .container__stats p:last-of-type {
