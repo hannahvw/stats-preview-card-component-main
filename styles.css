@@ -119,7 +119,7 @@ picture::before {
 
 @media screen and (min-width: 900px) {
   .container {
-    margin-top: 25%;
+    margin-top: 10%;
     max-width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,7 +144,7 @@ picture::before {
   .container__stats p:last-of-type {
     font-size: 0.75rem;
   }
-  
+
   picture::before {
     border-radius: 0 0.5rem 0.5rem 0;
   }
